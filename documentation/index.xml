@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentations on HBP Medical</title>
+    <link>https://hbpmedical.github.io/documentation/</link>
+    <description>Recent content in Documentations on HBP Medical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Wed, 28 Sep 2016 12:34:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://hbpmedical.github.io/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://hbpmedical.github.io/documentation/</link>
+      <pubDate>Wed, 28 Sep 2016 12:34:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/documentation/</guid>
+      <description>User guide
+Help site
+Media</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hbpmedical.github.io/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hbpmedical.github.io/documentation/</guid>
+      <description>Documentation - HBP Medical  @font-face { font-family: &#39;Icon&#39;; src: url(&#39;https://hbpmedical.github.io/fonts/icon.eot&#39;); src: url(&#39;https://hbpmedical.github.io/fonts/icon.eot&#39;) format(&#39;embedded-opentype&#39;), url(&#39;https://hbpmedical.github.io/fonts/icon.woff&#39;) format(&#39;woff&#39;), url(&#39;https://hbpmedical.github.io/fonts/icon.ttf&#39;) format(&#39;truetype&#39;), url(&#39;https://hbpmedical.github.io/fonts/icon.svg&#39;) format(&#39;svg&#39;); font-weight: normal; font-style: normal; }    body, input { font-family: &#39;Ubuntu&#39;, Helvetica, Arial, sans-serif; } pre, code { font-family: &#39;Ubuntu Mono&#39;, &#39;Courier New&#39;, &#39;Courier&#39;, monospace; }    function resizeIframe(obj) { obj.style.height = obj.contentWindow.document.body.scrollHeight + &#39;px&#39;; }         Documentation                 {{ partial &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

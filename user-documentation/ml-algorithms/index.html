@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.48" />
+    <meta name="description" content="SP8 subproject (Medical Informatics Platform) for the Human Brain Project.">
+<meta name="author" content="HBPMedical">
+
+    <link rel="shortcut icon" href="//localhost:1313/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="//localhost:1313/images/favicon.png" type="image/x-icon" />
+    <title> :: HBP Medical</title>
+
+    
+    <link href="//localhost:1313/css/nucleus.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/fontawesome-all.min.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/hybrid.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/featherlight.min.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/perfect-scrollbar.min.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/auto-complete.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/theme.css?1555086330" rel="stylesheet">
+    <link href="//localhost:1313/css/hugo-theme.css?1555086330" rel="stylesheet">
+    
+      <link href="//localhost:1313/css/theme-mip.css?1555086330" rel="stylesheet">
+    
+
+    <script src="//localhost:1313/js/jquery-2.x.min.js?1555086330"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/user-documentation/ml-algorithms/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="https://www.humanbrainproject.eu/en/medicine/"><img src="//localhost:1313/images/hbp.png" /></a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="//localhost:1313/js/lunr.min.js?1555086330"></script>
+<script type="text/javascript" src="//localhost:1313/js/auto-complete.js?1555086330"></script>
+<script type="text/javascript">
+    
+        var baseurl = '\/';
+    
+</script>
+<script type="text/javascript" src="//localhost:1313/js/search.js?1555086330"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/media/" title="Media" class="dd-item 
+        
+        
+        
+        ">
+      <a href="//localhost:1313/media/">
+          Media
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/media/twitter/" title="Twitter" class="dd-item ">
+        <a href="//localhost:1313/media/twitter/">
+        Twitter
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/user-documentation/" title="User Documentation" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="//localhost:1313/user-documentation/">
+          User Documentation
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/user-documentation/ml-algorithms/" title="" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="//localhost:1313/user-documentation/ml-algorithms/">
+          
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/technical-documentation/" title="Technical Documentation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="//localhost:1313/technical-documentation/">
+          Technical Documentation
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/technical-documentation/software-catalog/" title="Software Catalog" class="dd-item ">
+        <a href="//localhost:1313/technical-documentation/software-catalog/">
+        Software Catalog
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/technical-documentation/technology-stack/" title="Technology Stack" class="dd-item ">
+        <a href="//localhost:1313/technical-documentation/technology-stack/">
+        Technology Stack
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/development-process/" title="Development process" class="dd-item 
+        
+        
+        
+        ">
+      <a href="//localhost:1313/development-process/">
+          Development process
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/contributors/" title="Contributors to MIP" class="dd-item 
+        
+        
+        
+        ">
+      <a href="//localhost:1313/contributors/">
+          Contributors to MIP
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/contributors/chuv/" title="CHUV" class="dd-item ">
+        <a href="//localhost:1313/contributors/chuv/">
+        CHUV
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/contributors/epfl/" title="EPFL" class="dd-item ">
+        <a href="//localhost:1313/contributors/epfl/">
+        EPFL
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/contributors/uoa/" title="UoA" class="dd-item ">
+        <a href="//localhost:1313/contributors/uoa/">
+        UoA
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/contributors/aueb/" title="AUEB" class="dd-item ">
+        <a href="//localhost:1313/contributors/aueb/">
+        AUEB
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='//localhost:1313/'>HBP Medical</a> > <a href='//localhost:1313/user-documentation/'>User Documentation</a> > 
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1></h1>
+          
+
+        
+
+
+<p>The Medical Informatics platform offers a wide list of Data mininig and Machine learning
+tools for patients classification exploiting a bottom up approach (from data to diagnosis).
+The main tools are reported hereinafter:
+o
+Semi-supervised rule-based clustering algorithm:
+The rule-based algorithm aims to explain the variability between individuals, and
+describes a population by a group of “local over-densities”. These are defined as
+subspaces over combinations of variables. The algorithm performs an exhaustive
+search of the data space to predict the outcome variables. A typical use case
+consists of the health status of each subject in terms of the presence or absence of
+AD. In our experiment, the predictive variables are the 90 brain region volumes,
+age, gender, and individual subject global volumes.
+o
+Informatics-based Model - Enriched Automated Diagnostic Tools:
+This is an automated classifier from a set of MRI scans that came from deceased,
+pathologically diagnosed individuals. This classifier provides prognostic value on
+clinically categorised living people.
+o
+Informatics-based Model - Deep Learning for Automated Features Extraction:
+The increasing calculation power of computers has led to a rising interest in
+complex machine learning methods. In particular, the investigation of artificial
+neural networks with many hidden layers continuously results in promising new
+applications. These include image and face recognition (1, 2, 3), speech
+recognition (1, 2) and signal processing (1). Very recently, these deep learning
+networks have also been used in the classification of AD patients versus healthy
+control subjects, resulting in accuracies of up to 95% (Suk, Heung-Il; Shen,
+Dinggang; Deep learning-based feature representation for AD/MCI classification
+Medical Image Computing and Computer-Assisted Intervention–MICCAI 2013 583-
+590,2013).o
+Informatics-based Model - Rasch Model and Factor Analysis for Learning Disease
+Severity:
+We propose to extract an index or a latent variable from the neuroimaging data to
+quantify the disease severity for each subject and regional vulnerability by
+applying factor analysis. Since the atrophy pattern correlates with the loss of
+neurons, this severity has a biological meaning and is independent of symptoms.
+We aim to test if the estimated severity significantly associates with clinical
+diagnosis and identify the regions highly weighted in calculating the severity.
+o
+Informatics-based Model - Bi-Clustering Applied to Gene Expression and Brain
+Volumetric Data:
+The Ping-Pong Algorithm (PPA) is a bi-clustering method used to compare two
+datasets with one common dimension. The algorithm uses a random weighted set
+of genes as a starting point (called a seed). It then selects subjects in which these
+genes deviate from the mean across subjects. Using these subjects, it then selects
+brain regions whose volumes deviate from the mean in these subjects. Using these
+regions, it selects a second vector of subjects for which the volumes of these
+regions deviate from the mean across subjects. Finally, it selects a new set of
+genes whose expression in these subjects deviates from the norm. This process is
+repeated until convergence is reached (i.e. the gene, subject, and region sets do
+not change from one iteration to the next).
+o
+Informatics-based Model - Bayesian Causal Model:
+We aimed at designing, equations derivation and implementing the causal Bayesian
+model similar to the General Linear Model (GLM) for distributed Data. GLM is one
+of
+the
+most
+used
+models
+to
+estimated
+dependences
+between
+clinical,
+neuropsychological and Neuroimaging variables. In our case the data is distributed
+in different Hospitals and it is not possible to move them to a unique Federation
+node where the GLM could be computed in a classical way. Therefore special
+equations should be developed that allow us to have reliable GLM estimations
+under this condition. The Bayesian Formalism provides us the necessary
+armamentarium to deal with it and offers general sophisticated ways to extend to
+other models and managing high dimensional and Multimodal Data.o
+Disease subtypes signatures - Big Medical Data Strategy (3-C):
+We offer a 3C strategy (Categorize, Cluster &amp; Classify) that starts from the medical
+knowledge, categorizing the available set of features into three types: the patients&rsquo;
+assigned disease diagnosis, clinical measurements and potential biological markers,
+proceeds to an unsupervised learning process targeted to create new disease
+diagnosis classes, and finally, classifying the newly proposed diagnosis classes
+utilizing the potential biological markers. Our strategy, developed as part of the
+medical informatics work package at the EU Human Brain flagship Project strives to
+connect between potential biomarkers, and more homogeneous classes of disease
+manifestation that are expressed by meaningful features.Label Propagation Framework is a MIP function providing a Feature Extraction Framework.
+Data mining is to be based on a number of brain structure volume features, which are
+automatically extracted from patient MRI scans.
+o
+Multi-Target Regression on Data Streams is a MIP function that implements the
+FIMT-DD and iSOUP-Tree algorithms for learning decision trees from data streams,
+the former for single-target prediction and the latter for multi-target prediction.
+Both of these algorithms produce models in the form of a model tree, i.e., a
+decision tree, which uses linear functions in the leaves to achieve better
+performance.
+o
+Predictive Clustering Trees combine aspects from both predictive modeling and
+clustering. Predictive clustering trees (PCTs) partition the set of examples into
+subsets in which examples have similar values of the target variable, while
+clustering produces subsets in which examples have similar values of the
+descriptive variables. The task of predictive clustering is to find clusters of
+examples which have similar values of both the target and the descriptive
+variables.
+o
+The Rule Ensembles function implements the FIRE algorithm, which employs the
+rule ensembles approach for solving multi-target regression and time series
+problems. We can improve the accuracy of the rule model by adding simple linear
+functions to the ensemble, which results in a model that is a combination of global
+linear functions and rules.
+o
+The Feature Ranking for Structured Targets implements two algorithms for feature
+ranking for structured targets: (1) RF-RANK exploits the random forests mechanism
+and (2) GENIE3 exploits the variance reduction at each tree node from the
+ensemble. For the latter method, the ensemble could be random forest or an
+ensemble of extra trees. The both methods use predictive clustering trees as base
+predictive models.o
+Subgroup Discovery from Multi-Resolution Data is a tool that can use ontological
+domain knowledge (RDF graphs) in the learning process. Subgroup descriptions
+contain terms from the given domain knowledge and enable potentially better
+generalizations.
+o
+The
+Subgroup
+Discovery
+from
+Heterogeneous
+Data
+performs
+network
+propositionalization on a heterogeneous network by first deconstructing the
+network into several homogeneous networks. The homogeneous networks are
+constructed using user-supplied meta-paths in the heterogeneous network (for
+example, in a network consisting of papers and their authors, we can construct a
+homogeneous network of papers where two papers are connected if they share an
+author). The result of this function is a set of feature vectors, one for each node of
+the target type. Recently, the function was updated so that it can accept not only
+heterogeneous networks, but also standard data instances (with feature vectors) as
+input. In that case, the function constructs a proximity network of instances and
+performs network propositionalization on the resulting network.
+o
+Brainspan Co-Expression Clustering is a multi-dimensional co-expression analysis
+method for extracting disease signatures. We used BrainSpan human transcriptome
+database for our experiments.
+o
+BH-tSNE is a non-linear dimensionality reduction (DR) algorithm to visualize high-
+dimensional data. The main advantage of non-linear DR algorithms in comparison
+to linear DR algorithms such as PCA is that non-linear DR algorithms can represent
+neighbouring samples in the high-dimensional space better than linear DR
+algorithms in the lower dimensional space such as 2D or 3D. This advantage is
+crucial to visualize similarities between the features of samples of the data (such
+as gene expressions, disease phenotypes), hence to observe possible correlations
+between the samples and classify them in the same cluster.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="//localhost:1313/user-documentation/" title="User Documentation"> <i class="fas fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="//localhost:1313/technical-documentation/" title="Technical Documentation" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="//localhost:1313/js/clipboard.min.js?1555086330"></script>
+    <script src="//localhost:1313/js/perfect-scrollbar.min.js?1555086330"></script>
+    <script src="//localhost:1313/js/perfect-scrollbar.jquery.min.js?1555086330"></script>
+    <script src="//localhost:1313/js/jquery.sticky.js?1555086330"></script>
+    <script src="//localhost:1313/js/featherlight.min.js?1555086330"></script>
+    <script src="//localhost:1313/js/html5shiv-printshiv.min.js?1555086330"></script>
+    <script src="//localhost:1313/js/highlight.pack.js?1555086330"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="//localhost:1313/js/modernizr.custom.71422.js?1555086330"></script>
+    <script src="//localhost:1313/js/learn.js?1555086330"></script>
+    <script src="//localhost:1313/js/hugo-learn.js?1555086330"></script>
+
+    <link href="//localhost:1313/mermaid/mermaid.css?1555086330" type="text/css" rel="stylesheet" />
+    <script src="//localhost:1313/mermaid/mermaid.js?1555086330"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>

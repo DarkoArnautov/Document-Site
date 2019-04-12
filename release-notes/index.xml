@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Release-notes on HBP Medical</title>
+    <link>https://hbpmedical.github.io/release-notes/</link>
+    <description>Recent content in Release-notes on HBP Medical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 16 May 2017 17:33:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://hbpmedical.github.io/release-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>index</title>
+      <link>https://hbpmedical.github.io/release-notes/</link>
+      <pubDate>Tue, 16 May 2017 17:33:06 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/release-notes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

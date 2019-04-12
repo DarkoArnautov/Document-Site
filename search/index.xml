@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Searches on HBP Medical</title>
+    <link>https://hbpmedical.github.io/search/</link>
+    <description>Recent content in Searches on HBP Medical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Wed, 17 May 2017 11:11:46 +0200</lastBuildDate>
+    
+	<atom:link href="https://hbpmedical.github.io/search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Search</title>
+      <link>https://hbpmedical.github.io/search/</link>
+      <pubDate>Wed, 17 May 2017 11:11:46 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/search/</guid>
+      <description> Search content within the documentation Search
+          $(document).ready(function() { $(&#39;#tipue_search_input&#39;).tipuesearch({ &#39;mode&#39;: &#39;live&#39; }); });  </description>
+    </item>
+    
+  </channel>
+</rss>

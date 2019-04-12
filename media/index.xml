@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on HBP Medical</title>
+    <link>//localhost:1313/media/</link>
+    <description>Recent content in Media on HBP Medical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 16 May 2017 17:33:14 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/media/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter</title>
+      <link>//localhost:1313/media/twitter/</link>
+      <pubDate>Fri, 31 Aug 2018 17:33:14 +0200</pubDate>
+      
+      <guid>//localhost:1313/media/twitter/</guid>
+      <description>Twitter</description>
+    </item>
+    
+  </channel>
+</rss>

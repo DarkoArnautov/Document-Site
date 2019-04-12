@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/media/twitter/</loc>
+    <lastmod>2018-08-31T17:33:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/media/</loc>
+    <lastmod>2017-05-16T17:33:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/contributors/chuv/</loc>
+    <lastmod>2017-03-27T14:14:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/documentation/</loc>
+    <lastmod>2016-09-28T12:34:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/user-documentation/</loc>
+    <lastmod>2018-08-31T15:21:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/contributors/epfl/</loc>
+    <lastmod>2017-03-27T14:14:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/technical-documentation/</loc>
+    <lastmod>2018-08-31T15:21:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/contributors/uoa/</loc>
+    <lastmod>2017-03-27T14:14:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/technical-documentation/software-catalog/</loc>
+    <lastmod>2016-10-30T18:23:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/development-process/</loc>
+    <lastmod>2016-10-07T18:23:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/contributors/aueb/</loc>
+    <lastmod>2017-03-27T14:14:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/technical-documentation/technology-stack/</loc>
+    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/contributors/</loc>
+    <lastmod>2017-03-27T14:14:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2016-09-28T12:33:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/user-documentation/ml-algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HBP Medical</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on HBP Medical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 28 Sep 2016 12:33:51 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter</title>
+      <link>//localhost:1313/media/twitter/</link>
+      <pubDate>Fri, 31 Aug 2018 17:33:14 +0200</pubDate>
+      
+      <guid>//localhost:1313/media/twitter/</guid>
+      <description>Twitter</description>
+    </item>
+    
+    <item>
+      <title>CHUV</title>
+      <link>//localhost:1313/contributors/chuv/</link>
+      <pubDate>Mon, 27 Mar 2017 14:14:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/contributors/chuv/</guid>
+      <description>LREN laboratory at CHUV LREN is the Laboratoire de recherche en neuroimagerie and belongs to CHUV, Centre hospitalier universitaire vaudois, a major hospital in Lausanne, Switzerland.
+ Github repository</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>//localhost:1313/documentation/</link>
+      <pubDate>Wed, 28 Sep 2016 12:34:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/documentation/</guid>
+      <description>User guide
+Help site
+Media</description>
+    </item>
+    
+    <item>
+      <title>EPFL</title>
+      <link>//localhost:1313/contributors/epfl/</link>
+      <pubDate>Mon, 27 Mar 2017 14:14:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/contributors/epfl/</guid>
+      <description>DIAS laborary at EPFL</description>
+    </item>
+    
+    <item>
+      <title>UoA</title>
+      <link>//localhost:1313/contributors/uoa/</link>
+      <pubDate>Mon, 27 Mar 2017 14:14:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/contributors/uoa/</guid>
+      <description>MADGIK at University of Athens</description>
+    </item>
+    
+    <item>
+      <title>Software Catalog</title>
+      <link>//localhost:1313/technical-documentation/software-catalog/</link>
+      <pubDate>Sun, 30 Oct 2016 18:23:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/technical-documentation/software-catalog/</guid>
+      <description>This catalog attempts to collect all open-source software produced for the Medical Informatics Platform.
+It should contain all publicly accessible software for the phase SGA1 month 6.
+Open source software Infrastructure  
+   Deployment Organisation License Planning Continuous integration     mip-microservices-infrastructure         dev-setup         ansible-airflow        docker-flyway       xnat-docker       labkey-docker       MIPMap-docker       WebMIPMap-docker       PostgresRAW-docker       PostgresRAW-UI-docker       RAW-deploy       ExaremeLocal-docker        Web Portal, exploration and analytics, scientific applications</description>
+    </item>
+    
+    <item>
+      <title>AUEB</title>
+      <link>//localhost:1313/contributors/aueb/</link>
+      <pubDate>Mon, 27 Mar 2017 14:14:51 +0200</pubDate>
+      
+      <guid>//localhost:1313/contributors/aueb/</guid>
+      <description>Athens University of Economics and Business</description>
+    </item>
+    
+    <item>
+      <title>Technology Stack</title>
+      <link>//localhost:1313/technical-documentation/technology-stack/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/technical-documentation/technology-stack/</guid>
+      <description>Loading technology stack...  function poll(fn, timeout, interval) { var endTime = Number(new Date()) + (timeout || 2000); interval = interval || 100; var checkCondition = function(resolve, reject) { var result = fn(); if(result) { resolve(result); } else if (Number(new Date()) iframe&#34;).length == 1; }, 30000, 1000).then(function() { loading_frame_msg.parentElement.removeChild(loading_frame_msg); }).catch(function() { });</description>
+    </item>
+    
+  </channel>
+</rss>
